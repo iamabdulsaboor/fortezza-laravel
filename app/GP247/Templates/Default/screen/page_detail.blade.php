@@ -14,6 +14,7 @@ $layout_page = front_page_detail
         <div class="row">
             <div class="col-12">
                 {!! gp247_html_render($page->content ?? '') !!}
+                dd('Update');
             </div>
         </div>
     </div>
