@@ -6,7 +6,7 @@ $layout_page = shop_profile
 - $countries
 */ 
 @endphp
-{{-- jgjkk --}}
+
 @php
     $view = gp247_shop_process_view($GP247TemplatePath, 'account.layout');
 @endphp

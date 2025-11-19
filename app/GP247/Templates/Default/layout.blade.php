@@ -68,6 +68,7 @@
 
                             <!--Block left-->
                             @section('block_main_content_left')
+                            {{-- <p>how are you</p> --}}
                             <div class="col-lg-4 col-xl-3">
                                 <div class="aside row row-30 row-md-50 justify-content-md-between">
                                     <!--Module left -->

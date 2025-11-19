@@ -8,6 +8,6 @@ class ShopProductController extends VendorShopProductController
     public function __construct()
     {
         parent::__construct();
-        dd('Update');
+        // dd('Update');
     }
 }

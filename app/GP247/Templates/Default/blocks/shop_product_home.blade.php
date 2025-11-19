@@ -1,16 +1,19 @@
 @php
 $productsNew = $modelProduct->start()->getProductLatest()->setlimit(gp247_config('product_top'))->getData();
 @endphp
+@include('components.welcome_fortezza')
 
 @if ($productsNew->count())
       <!-- New Products-->
   <section class="section section-xxl bg-default">
+    {{-- dd --}}
     <div class="container">
 
         <h2 class="wow fadeScale">{{ gp247_language_render('front.products_new') }}</h2>
 
         <div class="row row-30 row-lg-50">
         @foreach ($productsNew as $key => $productNew)
+        {{-- @dd($productNew); --}}
         <div class="col-sm-6 col-md-4 col-lg-3">
             {{-- Render product single --}}
             @php
